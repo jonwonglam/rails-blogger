@@ -1,0 +1,61 @@
+/**************************************
+ * Default Styles
+ *************************************/
+
+$primary_color: #AAA;
+$accent-gray: #AAA;
+$background-primary: #fff;
+$background-secondary: #F5F8F9;
+
+body {
+  background-color: $background-secondary;
+  font: {
+    family: 'Source Sans Pro', Arial;
+    size: 14px;
+  }
+}
+
+a {
+  color: #0000FF;
+  img {
+    border: none;
+  }
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+#container {
+  width: 75%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 40px;
+  margin-top: 20px;
+}
+
+.content {
+  clear: both;
+  padding-top: 20px;
+}
+
+/**************************************
+ * Header Styles
+ *************************************/
+
+ h1 {
+   font: {
+     size: 20px;
+     weight: bold;
+   }
+   padding: 30px 0;
+   text-transform: uppercase;
+   border-bottom: 1px solid $accent-gray;
+   background-color: $background-primary;
+ }
+
+ li {
+   padding: 20px;
+ }
