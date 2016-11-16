@@ -1,3 +1,32 @@
 // Place all the styles related to the comments controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$blue: #2c9dd4;
+$light-blue: #3cb3ed;
+$light-gray: rgba(0,0,0, 0.03);
+$dark-gray: rgba(0,0,0, 0.6);
+
+.name {
+  display: inline-block;
+  font: bold 14px Arial;
+  color: $blue;
+}
+
+.bullet {
+  font-size: 12px;
+}
+
+.comment_details {
+  display: inline-block;
+  font: 13px Arial;
+  color: $dark-gray;
+}
+
+.comment_body {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 30px;
+  font: 15px Arial;
+  line-height: 1.5em;
+}

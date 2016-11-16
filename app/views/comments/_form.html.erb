@@ -1,13 +1,13 @@
-<h3>Post a Comment</h3>
+<h3 class="comment_header small">Leave a Comment</h3>
 
 <%= form_for [ @article, @comment ] do |f| %>
   <p>
-    <%= f.label :author_name, "Your name" %>
-    <%= f.text_field :author_name %>
+    <%= f.label :author_name, "Name" %>
+    <%= f.text_field :author_name, required: true, placeholder: "John Smith" %>
   </p>
   <p>
-    <%= f.label :body, "Your comment" %>
-    <%= f.text_area :body %>
+    <%= f.label :body, "Comment" %>
+    <%= f.text_area :body, required: true, placeholder: "Be cool." %>
   </p>
   <p>
     <%= f.submit 'Submit' %>
