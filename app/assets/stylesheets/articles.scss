@@ -1,3 +1,93 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$blue: #2c9dd4;
+$light-blue: #3cb3ed;
+$light-gray: rgba(0,0,0, 0.03);
+$dark-gray: rgba(0,0,0, 0.6);
+
+.article {
+  background-color: #fff;
+  margin: 40px 0;
+  padding: 30px 40px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.date {
+  font: 14px Arial;
+  color: #999;
+  text-transform: uppercase;
+}
+
+.tag {
+  margin-top: 20px;
+  padding-right: 10px;
+  margin-left: 30px;
+}
+
+.tag a {
+  font: 12px Arial;
+  color: $dark-gray;
+  text-decoration: none;
+  text-transform: lowercase;
+  background-color: $light-gray;
+  border: 1px solid rgba(0,0,0, 0.1);
+  border-radius: 5px;
+  padding: 3px 7px;
+  margin-right: 10px;
+  transition: all 0.2s;
+}
+
+.tag a:hover {
+  background-color: rgba(0,0,0, 0.07);
+}
+
+.article_title {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font: bold 36px Arial;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.article_title:hover {
+  color: $blue;
+}
+
+.article_text {
+  font: 16px Georgia;
+  line-height: 1.8em;
+}
+
+.read_more {
+  margin-top: 20px;
+  a {
+    color: $blue;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  a:hover {
+    color :#000;
+  }
+}
+
+.new_article {
+  background-color: $blue;
+  font: 14px;
+  color: #fff;
+  padding: 15px 35px;
+  margin: 50px 0;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: all 0.2s;
+}
+
+.new_article:hover {
+    background-color: $light-blue;
+}

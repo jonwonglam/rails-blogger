@@ -7,11 +7,19 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700i|Raleway:700" rel="stylesheet">
   </head>
 
   <body>
     <p class="flash"><%= flash.notice %></p>
+    <div class="side">
+      <div class="content">
+        <a class="logo" href="/">Ruby Blog</a>
+        <h2>By Jon Wong-Lam</h2>
+        <p>A project created with <a href="http://rubyonrails.org/">Ruby on Rails</a></p>
+        <p>Design inspired by this <a href="https://dribbble.com/shots/2047524-V5-0-Website-Redesign">Dribbble Post</a></p>
+      </div>
+    </div>
     <div id="container">
       <%= yield %>
     </div>

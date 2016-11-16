@@ -13,3 +13,64 @@
  *= require_tree .
  *= require_self
  */
+
+html, body {
+  background-color: #ECF0E3;
+  background-attachment: fixed;
+}
+
+.side {
+  position: fixed;
+  background-image: url("http://orig12.deviantart.net/d5d8/f/2016/304/f/8/img_4132_1200_by_jfb-damtrpz.jpg");
+  background-size: cover;
+  float: left;
+  width: 400px;
+  height: 100vh;
+  z-index: -1;
+}
+
+.content {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  margin-left: 90px;
+  padding-bottom: 60px;
+}
+
+.logo {
+  font: italic bold 40px 'Merriweather', serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.content h2 {
+  font: normal 14px 'Raleway', sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.content p {
+  font: 14px Georgia, serif;
+  padding-bottom: 10px;
+}
+
+.content p a {
+  color: rgb(255, 84, 84);
+  text-decoration: none;
+}
+
+.content p a:hover {
+  text-decoration: underline;
+}
+
+#container {
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  background-color: #F5F8F9;
+  width: calc(100% - 400px);
+  min-height: 100vh;
+  padding: 10px 30px;
+  padding-bottom: 50px;
+}
