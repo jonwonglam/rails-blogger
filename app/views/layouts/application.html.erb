@@ -16,6 +16,16 @@
       <div class="content">
         <a class="logo" href="/">Ruby Blog</a>
         <h2>By Jon Wong-Lam</h2>
+        <div class="nav">
+          <a class="nav_item" href="/">Articles</a>
+          <a class="nav_item" href="/tags">Tags</a>
+          <% if logged_in? %>
+            <%= link_to "Logout", logout_path, class: "nav_item" %>
+          <% else %>
+            <%= link_to "Login", login_path, class: "nav_item" %>
+          <% end %>
+          <a href="nav_item"></a>
+        </div>
         <p>A project created with <a href="http://rubyonrails.org/">Ruby on Rails</a></p>
         <p>Design inspired by this <a href="https://dribbble.com/shots/2047524-V5-0-Website-Redesign">Dribbble Post</a></p>
       </div>

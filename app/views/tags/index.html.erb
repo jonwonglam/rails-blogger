@@ -1,9 +1,11 @@
-<h1>All Tags</h1>
+<div class="article">
+  <h1 class="article_title">All Tags</h1>
 
-<ul id="tags">
-  <% @tags.each do |tag| %>
-    <li>
-      <%= link_to tag.name, tag_path(tag) %>
-    </li>
-    <% end %>
-</ul>
+  <ul id="tags">
+    <% @tags.each do |tag| %>
+      <li class="tag">
+        <%= link_to tag.name, tag_path(tag) %>
+      </li>
+      <% end %>
+  </ul>
+</div>

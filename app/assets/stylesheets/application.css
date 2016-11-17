@@ -64,6 +64,25 @@ html, body {
   text-decoration: underline;
 }
 
+.nav {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.nav_item {
+  display: block;
+  font: normal 12px 'Raleway', sans-serif;
+  color: rgb(255, 84, 84);
+  margin-bottom: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+.nav_item:hover {
+  color: #fff;
+}
+
 #container {
   box-sizing: border-box;
   position: absolute;
