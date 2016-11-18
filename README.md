@@ -1,24 +1,19 @@
-# README
+# Rails Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A blog created with Ruby on Rails.
 
-Things you may want to cover:
+### Overview
+---
+This is my first Rails project following [Jumpstart Lab's Rails tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html), courtesy of [The Odin Project](http://www.theodinproject.com/courses/web-development-101/lessons/ruby-on-rails).
 
-* Ruby version
+### See It In Action
+---
+View the live version on [Heroku](https://rails-blogger-custom.herokuapp.com/)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Principles Learned
+---
+* Follows CRUD and RESTful design
+* Basic MVC architecture
+* Routing
+* Migrations
+* Views with forms/partials/helpers
